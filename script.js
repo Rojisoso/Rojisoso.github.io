@@ -41,3 +41,6 @@ window.onscroll = function(){
     efecto();
 }
 
+function micv(){
+    window.open("https://drive.google.com/file/d/1BuJ5YE_s3nOkbFG2pBxlvMfl3q3Hgmle/view?usp=sharing", "CV | Luis Vienrich");
+}
