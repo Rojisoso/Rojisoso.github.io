@@ -25,15 +25,15 @@
         </div>
         <nav id="nav">
           <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#aboutme">About me</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#cv">CV</a></li>
-            <li><a href="#portfolio">Portfolio</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li><a href="#home" onclick="seleccionar()">Home</a></li>
+            <li><a href="#aboutme" onclick="seleccionar()">About me</a></li>
+            <li><a href="#skills" onclick="seleccionar()">Skills</a></li>
+            <li><a href="#cv" onclick="seleccionar()">CV</a></li>
+            <li><a href="#portfolio" onclick="seleccionar()">Portfolio</a></li>
+            <li><a href="#contact" onclick="seleccionar()">Contact</a></li>
           </ul>
         </nav>
-        <div class="nav-responsive">
+        <div class="nav-responsive" onclick="mostrarocultarmenu()">
           <i class="fa-solid fa-bars"></i>
         </div>
     </header>
@@ -48,11 +48,9 @@
     <h1>Luis Vienrich</h1>
     <h2>Jr Developer</h2>
     <div class="redes">
-      <a href="#"><i class="fa-brands fa-github"></i></a>
-      <a href="#"><i class="fa-brands fa-linkedin"></i></a>
-      <a href="#"><i class="fa-brands fa-discord"></i></a>
-      <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
-      <a href="#"><i class="fa-brands fa-twitter"></i></a>
+      <a href="https://github.com/Rojisoso"><i class="fa-brands fa-github"></i></a>
+      <a href="https://www.linkedin.com/in/luisvienrich/"><i class="fa-brands fa-linkedin"></i></a>
+      <a href="https://twitter.com/lvrojisoso"><i class="fa-brands fa-twitter"></i></a>
     </div>
   </div>
 </section>
@@ -128,7 +126,7 @@
         <div class="skill">
           <span>Swift</span>
           <div class="barra-skill">
-            <div class="progreso swift">
+            <div class="progreso">
               <span>85%</span>
             </div>
           </div>
@@ -207,6 +205,7 @@
   <div class="contenido-seccion">
     <h2>Curriculum</h2>
     <div class="fila">
+
       <div class="col-izquierda">
         <h3>Educación</h3>
         <div class="item-izq">
@@ -256,5 +255,61 @@
     </div>
   </div>
 </section>
+
+<!--PORTFOLIO-->
+<section id="portfolio" class="portfolio">
+  <h2>PORTFOLIO</h2>
+  <div class="galeria">
+    <div class="proyecto">
+      <img src="Imagenes/ioscalculator.jpeg" alt="">
+      <div class="overlay">
+        <h3>iOS Calculator on iPad</h3>
+        <p>Swift</p>
+      </div>
+    </div>
+    <div class="proyecto">
+      <img src="Imagenes/paginaweb.png" alt="">
+      <div class="overlay">
+        <h3>Página Web</h3>
+        <p>HTML & CSS</p>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+<!--CONTACT-->
+<section id="contact" class="contacto">
+  <div class="contenido-seccion">
+    <h2>CONTACT</h2>
+    <div class="fila">
+      <!--formulario-->
+      <div class="col">
+        <input type="text" placeholder="Tú nombre">
+        <input type="text" placeholder="Número de teléfono">
+        <input type="text" placeholder="email">
+        <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+        <button>Enviar<i class="fa-solid fa-envelope-circle-check"></i>
+        <span class="overlay"></span>
+        </button>
+      </div>
+      
+    </div>
+  </div>
+</section>
+
+<!--FOOTER-->
+<footer>
+  <a href="#home" class="arriba">
+    <i class="fa-solid fa-angles-up"></i>
+  </a>
+  <div class="redes">
+    <a href="https://github.com/Rojisoso"><i class="fa-brands fa-github"></i></a>
+      <a href="https://www.linkedin.com/in/luisvienrich/"><i class="fa-brands fa-linkedin"></i></a>
+      <a href="https://twitter.com/lvrojisoso"><i class="fa-brands fa-twitter"></i></a>
+  </div>
+</footer>
+
+<script src="script.js"></script>
 </body>
 </html>
