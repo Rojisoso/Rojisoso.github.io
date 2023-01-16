@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto+Mono:wght@100;300;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto+Mono:wght@100;300;600;700&display=swap');
+*{
+    box-sizing: border-box;
+    font-family: 'Roboto Mono';
+    margin: 0;
+    padding: 0;
+}
+html{
+
+    scroll-behavior: smooth;
+
+}
+
+.contenedor-header{
+    background: #1e2326;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 99;
+
+}
+.contenedor-header header{
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+}
+.contenedor-header header .logo a{
+    font-family: 'Lobster';
+    font-size: 36px;
+    color: #1CB698;
+    text-decoration: none;
+}
+.contenedor-header header ul{
+    display: flex;
+    list-style: none;
+}
+.contenedor-header header nav ul li a{
+    text-align: none;
+    color: white;
+    margin: 0 15px;
+    padding: 3px;
+    transition: .5s;
+    text-decoration: none;
+}
+.contenedor-header header nav ul li a:hover{
+    color: #1CB698;
+}
+.nav-responsive{
+    background-color: #1CB698;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: none;
+
+}
+
+/*SECCION HOME*/
+.home{
+    background: linear-gradient(to top, rgba(30,35,38,.8),rgba(30,35,38,1)),url(Imagenes/Gatito.png);
+    background-size: cover;
+    height: 100vh;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.home .contenido-banner{
+    padding: 20px;
+    background-color: #1e2326;
+    max-width: 350px;
+    margin: auto;
+    text-align: center;
+    border-radius: 40px;
+
+}
+.home .contenido-banner img{
+    margin-top: 40px;
+    border: 10px solid #1CB698;
+    display: block;
+    width: 80%;
+    margin: auto;
+    border-radius: 100%;
+}
+.home .contenido-banner h1{
+    margin-top: 40px;
+    font-size: 42px;
+    font-family: 'Roboto Mono';
+}
+.home .contenido-banner h2{
+    font-size: 15px;
+    font-weight: normal;
+}
+.home .contenido-banner .redes a{
+    color: white;
+    display: inline-block;
+    border: 1px solid white;
+    border-radius: 100%;
+    width: 42px;
+    height: 42px;
+    line-height: 42px;
+    margin: 40px 5px;
+    font-size: 20px;
+    transition: .3s;
+}
+.home .contenido-banner .redes a:hover{
+    background-color: #1CB698;
+}
+
+/*ABOUT ME*/
+
+.aboutme{
+    background-color: #1e2326;
+    color: white;
+    padding: 50px 20px;
+
+}
+.aboutme .contenido-seccion{
+    max-width: 1100px;
+    margin: auto;
+
+}
+.aboutme h2{
+    font-size: 48px;
+    font-family: 'Roboto Mono';
+    text-align: center;
+    padding: 20px 0;
+
+}
+.aboutme .contenido-seccion p{
+    font: 18px;
+    line-height: 22px;
+    margin-bottom: 20px;
+
+}
+.aboutme .contenido-seccion p span{
+    color: #1CB698;
+    font-weight: bold;
+
+}
+.aboutme .fila{
+    display: flex;
+}
+.aboutme .fila .col{
+    width: 50%;
+}
+.aboutme .fila .col h3{
+    font-size: 28px;
+    font-family: 'Lobster';
+    margin-bottom: 25px;
+
+}
+.aboutme .fila .col ul{
+    list-style: none;
+
+}
+.aboutme .fila .col ul li {
+    margin: 12px 0;
+
+}
+.aboutme .fila .col ul li strong{
+    display: inline-block;
+    color: #1CB698;
+    width: 130px;
+}
+.aboutme .fila .col .contenedor-intereses{
+    display: flex;
+    flex-wrap: wrap;
+}
+.aboutme .fila .col .contenedor-intereses .interes{
+    width: 100px;
+    height: 100px;
+    background-color: #252A2E;
+    border-radius: 10px;
+    margin: 0 15px 15px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: .3s;
+}
+.aboutme .fila .col .contenedor-intereses .interes:hover{
+    background-color: #1CB698;
+}
+.aboutme .fila .col .contenedor-intereses .interes i{
+    font-size: 30px;
+    margin-bottom: 10px;
+
+}
+.aboutme button{
+    cursor: pointer;
+    background-color: transparent;
+    border: 2px solid white;
+    width: fit-content;
+    margin: 20px auto;
+    padding: 10px 22px;
+    font-size: 16px;
+    color: white;
+    position: relative;
+    z-index: 10;
+}
+.aboutme button .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background-color: #1CB698;
+    z-index: -1;
+    transition: 1s;
+}
+.aboutme button:hover .overlay{
+    width: 100%;
+}
+
+/*SECCION SKILLS*/
+
+.skills{
+    background-color: #1e2326;
+    color: white;
+    padding: 50px 20px;
+
+}
+.skills .contenido-seccion{
+    max-width: 1100px;
+    margin: auto;
+
+}
+.skills h2{
+    font-size: 48px;
+    font-family: 'Roboto Mono';
+    text-align: center;
+    padding: 20px 0;
+
+}

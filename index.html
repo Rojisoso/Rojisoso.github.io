@@ -1,18 +1,206 @@
-<! DOCTYPE html>
-<html>
+<!DOCTYPE html>
+<html lang="es">
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <meta http-equiv="Content-Style-Type" content="text/css">
-  <title>Luis Vienrich</title>
-  <meta name="Generator" content="Cocoa HTML Writer">
-  <meta name="CocoaVersion" content="2299">
-  <style type="text/css">
-    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; color: #000000; -webkit-text-stroke: #000000}
-    span.s1 {font-kerning: none}
-  </style>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=egde">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!--Titulo-->
+  <title>Luis Vienrich | Developer</title>
+
+
+  <link rel="stylesheet" href="main.css">
+
 </head>
+
 <body>
 
-<p class="p1"><span class="s1">Bienvenido a mi página personal</span></p>
+
+<!--Menu Encabezado-->
+  <div class="contenedor-header">
+    <header>
+        <div class="logo">
+          <a href="#">Rojisoso</a>
+        </div>
+        <nav id="nav">
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#aboutme">About me</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#cv">CV</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="nav-responsive">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+    </header>
+  </div>
+
+<!--Seccion Home-->
+<section id="home" class="home">
+  <div class="contenido-banner">
+    <div class="contenedor-img">
+      <img src="Imagenes/Gatito.png" alt=""
+    </div>
+    <h1>Luis Vienrich</h1>
+    <h2>Jr Developer</h2>
+    <div class="redes">
+      <a href="#"><i class="fa-brands fa-github"></i></a>
+      <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+      <a href="#"><i class="fa-brands fa-discord"></i></a>
+      <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+      <a href="#"><i class="fa-brands fa-twitter"></i></a>
+    </div>
+  </div>
+</section>
+
+<!--About me-->
+<section id="aboutme" class="aboutme">
+  <div class="contenido-seccion">
+    <h2>About me</h2>
+    <p><span>Hola, soy Luis Vienrich.</span><span> Soy una persona responsable, comprometida y con muchas ganas de aprender, preparado para asumir nuevos retos con el fin de mejorar cada día</span></p>
+
+    <div class="fila">
+      <!--datos personales-->
+      <div class="col">
+        <h3>Datos Personales</h3>
+        <ul>
+          <li>
+            <strong>Correo</strong>
+            a20172501@pucp.edu.pe
+          </li>
+          <li>
+            <strong>Teléfono</strong>
+            +51 965901695
+          </li>
+          <li>
+            <strong>Página Web</strong>
+            Rojisoso.github.io
+          </li>
+        </ul>
+      </div>
+
+      <!--intereses-->
+      <div class="col">
+        <h3>Intereses</h3>
+        <div class="contenedor-intereses">
+          <div class="interes">
+            <i class="fa-solid fa-ghost"></i>
+            <span>Juegos</span>
+          </div>
+          <div class="interes">
+            <i class="fa-solid fa-futbol"></i>
+            <span>Fútbol</span>
+          </div>
+          <div class="interes">
+            <i class="fa-solid fa-music"></i>
+            <span>Música</span>
+          </div>
+          <div class="interes">
+            <i class="fa-brands fa-apple"></i>
+            <span>Apple</span>
+          </div>
+          <div class="interes">
+            <i class="fa-solid fa-car"></i>
+            <span>Autos</span>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <button>
+      Descargar CV<i class="fa-solid fa-download"></i>
+      <span class="overlay"></span>
+    </button>
+  </div>
+</section>
+
+<!--Skills-->
+<section class="skills" id="skills">
+  <div class="contenido-seccion">
+    <h2>Skills</h2>
+    <div class="fila">
+      <div class="col">
+        <h3>Professional Skills</h3>
+        <div class="skill">
+          <span>Swift</span>
+          <div class="barra-skill">
+            <div class="progreso">
+              <span>85%</span>
+            </div>
+          </div>
+        </div>
+        <div class="skill">
+          <span>SwiftUI</span>
+          <div class="barra-skill">
+            <div class="progreso">
+              <span>70%</span>
+            </div>
+          </div>
+        </div>
+        <div class="skill">
+          <span>Python</span>
+          <div class="barra-skill">
+            <div class="progreso">
+              <span>70%</span>
+            </div>
+          </div>
+        </div>
+        <div class="skill">
+          <span>C</span>
+          <div class="barra-skill">
+            <div class="progreso">
+              <span>90%</span>
+            </div>
+          </div>
+        </div>
+        <div class="skill">
+          <span>C++</span>
+          <div class="barra-skill">
+            <div class="progreso">
+              <span>90%</span>
+            </div>
+          </div>
+        </div>
+        <div class="skill">
+          <span>C#</span>
+          <div class="barra-skill">
+            <div class="progreso">
+              <span>75%</span>
+            </div>
+          </div>
+        </div>
+        <div class="skill">
+          <span>Objective-C</span>
+          <div class="barra-skill">
+            <div class="progreso">
+              <span>50%</span>
+            </div>
+          </div>
+        </div>
+        <div class="skill">
+          <span>HTML & CSS</span>
+          <div class="barra-skill">
+            <div class="progreso">
+              <span>70%</span>
+            </div>
+          </div>
+        </div>
+        <div class="skill">
+          <span>MySQL</span>
+          <div class="barra-skill">
+            <div class="progreso">
+              <span>60%</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+  
 </body>
 </html>
