@@ -295,13 +295,15 @@
     <div class="fila">
       <!--formulario-->
       <div class="col">
-        <input type="text" placeholder="Tu nombre">
-        <input type="text" placeholder="Número de teléfono">
-        <input type="text" placeholder="Email">
-        <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
-        <button>Enviar<i class="fa-solid fa-envelope-circle-check"></i>
-        <span class="overlay"></span>
-        </button>
+        <form method= "post" action= "enviar2.php">
+          <input type="name" required="required" placeholder="Tu nombre">
+          <input type="phone" required="required" placeholder="Número de teléfono">
+          <input type="email"required="required" placeholder="Email">
+          <textarea name="message" id="message" required="required" cols="30" rows="10" placeholder="Mensaje"></textarea>
+          <button type="submit">Enviar<i class="fa-solid fa-envelope-circle-check"></i>
+          <span class="overlay"></span>
+          </button>
+        </form>
       </div>
       
     </div>
