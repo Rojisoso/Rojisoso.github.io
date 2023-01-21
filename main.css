@@ -662,6 +662,16 @@ footer{
     width: 100%;
 
 }
+.footer .contenido-seccion{
+    max-width: 1100px;
+    margin: auto;
+}
+.footer h2{
+    font-size: 48px;
+    font-family: 'Roboto Mono';
+    text-align: center;
+    padding: 20px 0;
+}
 footer .redes{
     margin-bottom: 20px;
 }
