@@ -42,5 +42,5 @@ window.onscroll = function(){
 }
 
 function micv(){
-    window.open("https://drive.google.com/file/d/1BuJ5YE_s3nOkbFG2pBxlvMfl3q3Hgmle/view?usp=sharing", "CV | Luis Vienrich");
+    window.open("https://drive.google.com/file/d/12jFbxwX1J8WlBbqs9dV9WkfUFZazYpEi/view?usp=sharing", "CV | Luis Vienrich");
 }
