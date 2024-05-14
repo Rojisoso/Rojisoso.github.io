@@ -300,7 +300,7 @@ html{
 
 .skills .skill .kotlin{
     width: 0;
-    animation: 2s swiftui forwards;
+    animation: 2s kotlin forwards;
 
 }
 @keyframes kotlin{
