@@ -295,17 +295,17 @@ html{
 }
 @keyframes swift{
 0%{width: 0%;}
-100%{width: 85%;}
+100%{width: 95%;}
 }
 
-.skills .skill .swiftui{
+.skills .skill .kotlin{
     width: 0;
     animation: 2s swiftui forwards;
 
 }
-@keyframes swiftui{
+@keyframes kotlin{
 0%{width: 0%;}
-100%{width: 60%;}
+100%{width: 80%;}
 }
 
 .skills .skill .python{
@@ -315,7 +315,7 @@ html{
 }
 @keyframes python{
 0%{width: 0%;}
-100%{width: 70%;}
+100%{width: 50%;}
 }
 
 .skills .skill .c{
@@ -325,7 +325,7 @@ html{
 }
 @keyframes c{
 0%{width: 0%;}
-100%{width: 90%;}
+100%{width: 50%;}
 }
 
 .skills .skill .ccc{
@@ -335,7 +335,7 @@ html{
 }
 @keyframes ccc{
 0%{width: 0%;}
-100%{width: 90%;}
+100%{width: 50%;}
 }
 
 .skills .skill .cc{
@@ -345,7 +345,7 @@ html{
 }
 @keyframes cc{
 0%{width: 0%;}
-100%{width: 85%;}
+100%{width: 50%;}
 }
 
 .skills .skill .objc{
@@ -365,7 +365,7 @@ html{
 }
 @keyframes htmlcss{
 0%{width: 0%;}
-100%{width: 70%;}
+100%{width: 50%;}
 }
 
 .skills .skill .mysql{
@@ -375,7 +375,7 @@ html{
 }
 @keyframes mysql{
 0%{width: 0%;}
-100%{width: 60%;}
+100%{width: 80%;}
 }
 
 /*SECCION CV*/
