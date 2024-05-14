@@ -30,10 +30,9 @@ function efecto(){
         habilidades[2].classList.add("python");
         habilidades[3].classList.add("c");
         habilidades[4].classList.add("ccc");
-        habilidades[5].classList.add("cc");
-        habilidades[6].classList.add("objc");
-        habilidades[7].classList.add("htmlcss");
-        habilidades[8].classList.add("mysql");
+        habilidades[5].classList.add("objc");
+        habilidades[6].classList.add("htmlcss");
+        habilidades[7].classList.add("mysql");
     }
 }
 
