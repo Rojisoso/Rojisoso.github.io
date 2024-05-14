@@ -26,7 +26,7 @@ function efecto(){
     if(distancia >= 300){
         let habilidades = document.getElementsByClassName("progreso");
         habilidades[0].classList.add("swift");
-        habilidades[1].classList.add("swiftui");
+        habilidades[1].classList.add("kotlin");
         habilidades[2].classList.add("python");
         habilidades[3].classList.add("c");
         habilidades[4].classList.add("ccc");
